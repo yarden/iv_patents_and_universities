@@ -1,5 +1,5 @@
 Analysis of the origins of patents in the Intellectual Ventures patent portfolio
-====================================================
+=====================================================
 
 Intellectual Ventures (IV) made their [patent portfolio](http://patents.intven.com/finder) public (available as [csv file](http://patents.intven.com/data/ivpatents.csv)), which contains nearly 30,000 patents.
 

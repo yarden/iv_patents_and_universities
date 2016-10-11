@@ -17,6 +17,7 @@ Code
 
 To run analysis, use [patents_analysis.py](./code/patents_analysis.py) script: 
 
+    cd ./code
     python patents_analysis.py
  
 

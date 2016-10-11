@@ -113,10 +113,9 @@ def get_stats(patents):
 
 def main():
     input_fname = \
-      os.path.join(paths.DATA_DIR, "patents",
-                   "ivpatents_sept23_2016.csv")
+      os.path.join(paths.DATA_DIR, "ivpatents_sept23_2016.csv")
     output_fname = \
-      os.path.join(paths.DATA_DIR, "patents",
+      os.path.join(paths.DATA_DIR,
                    "ivpatents_sept23_2016.info.with_dates.txt")
     # get patents information
     process_patents(input_fname, output_fname)
@@ -135,7 +134,7 @@ def main():
     print "total of %d university patents" %(len(univ_patents))
     # output university patents to file
     univ_patents_fname = os.path.join(paths.DATA_DIR, "ivpatents_universities.txt")
-    print "outputting university patents to: %s" %(univ_patents_fname)
+    print "writing university patents to: %s" %(univ_patents_fname)
     univ_patents.to_csv(univ_patents_fname, sep="\t", index=False,
                         cols=["patent_id", "patent_title", "assigneeOriginal",
                               "filingDate", "publicationDate", "grantDate"])

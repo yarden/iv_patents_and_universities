@@ -21,7 +21,7 @@ To run analysis, use [patents_analysis.py](./code/patents_analysis.py) script:
  
 
 Required packages
-********************
+~~~~~~~~~~~~~~~~~
 
 * [lxml](https://pypi.python.org/pypi/lxml) for parsing HTML files
 * [pandas](http://pandas.pydata.org/) for data processing
